@@ -2,10 +2,9 @@ requires piborg/Gamepad specifically Controllers.py and Gamepad.py
 
 add this class to Controllers.py to add 8BitDo Micro functionality
 
-'''python
+```python
 class EightBitDoMicro(Gamepad):
     fullName = '8BitDo Micro'
-
     def __init__(self, joystickNumber = 0):
         Gamepad.__init__(self, joystickNumber)
         self.axisNames = {
@@ -29,4 +28,6 @@ class EightBitDoMicro(Gamepad):
         }
         self._setupReverseMaps()
 ```
+
+
 This class must have self.axisNames with a map of numbers to capitalised strings. Follow the conventions the other classes use for generic axes, make up your own names for axes unique to your device. self.buttonNames needs the same treatment. Run python Gamepad.py to get the event mappings.
