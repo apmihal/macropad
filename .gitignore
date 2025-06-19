@@ -1,5 +1,9 @@
 #libraries
+<<<<<<< HEAD
 Controller.py
+=======
+Controllers.py
+>>>>>>> 1060bb1 (Initial commit)
 Gamepad.py
 
 # Byte-compiled / optimized / DLL files
