@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#A wayland port of my x11 version of my macropad script
+
 # Load the gamepad and time libraries
 import Gamepad
 import time
